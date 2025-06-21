@@ -47,8 +47,6 @@ git clone https://github.com/yourname/healthcare-claims-api.git
 cd healthcare-claims-api
 ```
 
----
-
 ### 2️⃣ Setup Virtual Environment
 
 ```bash
@@ -56,15 +54,11 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
 
----
-
 ### 3️⃣ Install All Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### 4️⃣ Start Redis (If Not Running)
 
@@ -72,15 +66,11 @@ pip install -r requirements.txt
 redis-server
 ```
 
----
-
 ### 5️⃣ Launch Celery Worker
 
 ```bash
 celery -A app.celery_worker.celery_app worker --loglevel=info
 ```
-
----
 
 ### 6️⃣ Run FastAPI App
 
@@ -129,8 +119,6 @@ You can test the API using:
   * `Authorization: Bearer <your_token_here>` (after login)
 * Upload CSV files directly in the request body for `/claims/bulk` *(premium feature)*
 
----
-
 ### 🔸 2. Postman
 
 > 🌐 Ideal for team collaboration and full-featured API testing
@@ -148,7 +136,6 @@ You can test the API using:
 
 * To test `/claims/bulk`, go to `Body > form-data`, and upload the CSV file with key = `file`
 
----
 
 ### 🔸 3. Swagger UI (Auto-Generated)
 
@@ -291,9 +278,6 @@ patient_name,diagnosis_code,procedure_code,claim_amount
 Alice,D12,P34,500
 Bob,D56,P78,900
 ```
-
-🧪 *Use Postman or Thunder Client (CSV file input supported only in the paid version of Thunder Client)*
-
 ---
 
 ## 📊 Report Generation (Async via Celery)
