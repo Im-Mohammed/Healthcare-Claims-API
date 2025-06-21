@@ -349,6 +349,10 @@ Once the report is ready, you'll get a POST request to your URL 📡
 
 ---
 
+Absolutely! Here's your **unit test section rewritten** to make each item appear clearly one after another — clean and easy to follow:
+
+---
+
 ## 🧪 Running Tests
 
 Run unit tests using:
@@ -357,12 +361,12 @@ Run unit tests using:
 pytest tests/
 ```
 
-Covered:
+### ✅ Test Coverage Includes:
 
-✅ Authentication
-✅ Claims CRUD
-✅ CSV Upload
-✅ Background Task Status
+* 🔐 Authentication
+* 📄 Claims CRUD Operations
+* 📥 CSV Bulk Upload
+* ⏳ Background Task (Celery) Status
 
 ---
 
