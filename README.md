@@ -344,13 +344,6 @@ Returns the generated CSV 📥
   "url": "https://webhook.site/your-custom-url"
 }
 ```
-
-Once the report is ready, you'll get a POST request to your URL 📡
-
----
-
-Absolutely! Here's your **unit test section rewritten** to make each item appear clearly one after another — clean and easy to follow:
-
 ---
 
 ## 🧪 Running Tests
