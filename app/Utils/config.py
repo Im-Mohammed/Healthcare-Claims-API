@@ -7,7 +7,7 @@ logger = setup_logger()
 
 class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./healthcare_claims.db"
-    SECRET_KEY: str = "wT9XyEHoU5ax7ZWnSlduOd-RMJeS0PReP_nucyoCv4A"
+    SECRET_KEY: str = "Your-secret-key"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REDIS_URL: str = "redis://localhost:6379/0"
