@@ -354,4 +354,8 @@ Got ideas or bugs? Open an issue — contributions are welcome!
 
 ---
 
+## 👋 Let's Connect
 
+Built with ❤️ by Mohammed
+
+🔗 GitHub: [Im-Mohammed](https://github.com/Im-Mohammed)  
