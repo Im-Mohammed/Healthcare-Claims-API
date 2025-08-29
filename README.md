@@ -351,9 +351,7 @@ pytest tests/
 
 Like the project? Star it ⭐ on GitHub.
 Got ideas or bugs? Open an issue — contributions are welcome!
-
 ---
-
 ## 👋 Let's Connect
 Built with ❤️ by Mohammed
 
