@@ -1,4 +1,5 @@
 # 🏥 Healthcare Claims Processing API
+
 Hey there! 👋
 Welcome to the **Healthcare Claims Processing API** — a powerful backend system built using **FastAPI** that streamlines the creation, management, and reporting of **health insurance claims**.
 
